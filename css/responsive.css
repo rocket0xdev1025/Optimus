@@ -1,0 +1,502 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 1700px) and (max-width: 2000px) {
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1380px) {
+  .hero-title h2 {
+    font-size: 215.387px;
+  }
+  .hero-right-content p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .logo img {
+    width: 130px;
+  }
+  .menu-bar {
+    /* display: block !important; */
+  }
+  .menu-item {
+    display: none !important;
+  }
+  header {
+    padding: 10px 0px;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  .manu-btn img {
+    width: 25px;
+  }
+  .fixed-menu .logo img {
+    width: 133px;
+  }
+  .manu-btn ul {
+    gap: 0 5px;
+  }
+  .buy-btn {
+    color: #fff;
+    text-align: center;
+    font-family: "BoomBox 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 11px;
+    border: 3px solid #fff;
+    margin-left: 7px;
+  }
+  .hero-area {
+    padding: 70px 0 0px;
+  }
+  .hero-title ul li a {
+    font-size: 19.375px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 8px 5px;
+    transition: 0.3s;
+    text-align: center;
+    display: block;
+    color: #fff;
+    width: 144px;
+  }
+  .hero-social-icon ul li a img {
+    transition: 0.2s;
+    width: 40px;
+  }
+  .hero-social-icon ul {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+  }
+  .hero-social-icon {
+    position: absolute;
+    bottom: 55px;
+    left: 23px;
+  }
+  .hero-img {
+    text-align: center;
+    margin-top: -50px;
+    position: relative;
+  }
+  .hero-title h2 {
+    color: #fff;
+    font-family: "BoomBox 2";
+    font-size: 56.387px;
+    margin-top: 26px;
+  }
+  .hero-right-content {
+    bottom: 56px;
+  }
+  .hero-right-content p {
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+  .hero-right-content ul {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    justify-content: right;
+    margin-right: 21px;
+    transition: 0.3s;
+  }
+  .hero-right-content ul li a img {
+    width: 40px;
+  }
+  .hero-title ul {
+    bottom: 50px;
+  }
+  .about-area {
+    padding: 30px 0 1px;
+  }
+  .about-title {
+    margin-top: 0px;
+  }
+  .about-title h2 {
+    color: #fff;
+    font-family: "BoomBox 2";
+    font-size: 17.922px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 31px;
+    position: relative;
+    text-align: center;
+  }
+  .about-title h2::before {
+    content: "";
+    width: 62%;
+    height: 6px;
+    background: linear-gradient(90deg, #00ccf2 0%, #004f63 50%, #000000 100%);
+    position: absolute;
+    top: 32px;
+    left: 71px;
+  }
+  .about-title p {
+    color: #fff;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    word-spacing: -1px;
+    padding-right: 0px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .about-img img {
+    margin-left: 0px;
+    position: relative;
+  }
+  .tk-title h2 {
+    color: #fff;
+    font-size: 23px;
+  }
+  .tk-title p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .text-box-main {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .text-box-main h3 {
+    font-size: 19.922px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+  .text-box-main ul li {
+    color: #fff;
+    font-size: 12.039px;
+  }
+  .text-box-main::before {
+    content: "";
+    width: 100%;
+    height: 6px;
+  }
+  .Token_Address small {
+    color: #00d3f3;
+    text-align: center;
+    font-family: "BoomBox 2";
+    font-size: 9px;
+  }
+  .Token_Address span {
+    font-size: 14px;
+    padding: 5px 13px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  .ds-area {
+    padding: 40px 0;
+  }
+  .tokenomics-area {
+    padding: 43px 0 2px;
+  }
+  .ds-wrapper h2 {
+    font-size: 28px;
+  }
+  .ds-wrapper p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+  }
+  .ds-wrapper p br {
+    display: none;
+  }
+  footer {
+    background-color: #fff;
+    padding: 17px 0;
+  }
+  .coppyright-text p {
+    color: #000;
+    font-size: 16px;
+    word-spacing: 1px;
+  }
+  .scroll-card {
+    padding: 1px 8px;
+  }
+  .scrolltotop {
+    width: 33px;
+  }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 130px;
+  }
+  .menu-bar {
+    /* display: block !important; */
+  }
+  .menu-item {
+    display: none !important;
+  }
+  header {
+    padding: 10px 0px;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  .manu-btn img {
+    width: 25px;
+  }
+  .fixed-menu .logo img {
+    width: 133px;
+  }
+  .manu-btn ul {
+    gap: 0 5px;
+  }
+  .buy-btn {
+    color: #fff;
+    text-align: center;
+    font-family: "BoomBox 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 11px;
+    border: 3px solid #fff;
+    margin-left: 7px;
+  }
+  .hero-area {
+    padding: 70px 0 0px;
+  }
+  .hero-title ul li a {
+    font-size: 19.375px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 8px 5px;
+    transition: 0.3s;
+    text-align: center;
+    display: block;
+    color: #fff;
+    width: 144px;
+  }
+  .hero-social-icon ul li a img {
+    transition: 0.2s;
+    width: 40px;
+  }
+  .hero-social-icon ul {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+  }
+  .hero-social-icon {
+    position: absolute;
+    bottom: 55px;
+    left: 23px;
+  }
+  .hero-img {
+    text-align: center;
+    margin-top: -50px;
+    position: relative;
+  }
+  .hero-title h2 {
+    color: #fff;
+    font-family: "BoomBox 2";
+    font-size: 56.387px;
+    margin-top: 26px;
+  }
+  .hero-right-content {
+    bottom: 56px;
+  }
+  .hero-right-content p {
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+  .hero-right-content ul {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    justify-content: right;
+    margin-right: 21px;
+    transition: 0.3s;
+  }
+  .hero-right-content ul li a img {
+    width: 40px;
+  }
+  .hero-title ul {
+    bottom: 50px;
+  }
+  .about-area {
+    padding: 30px 0 1px;
+  }
+  .about-title {
+    margin-top: 0px;
+  }
+  .about-title h2 {
+    color: #fff;
+    font-family: "BoomBox 2";
+    font-size: 17.922px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 31px;
+    position: relative;
+    text-align: center;
+  }
+  .about-title h2::before {
+    content: "";
+    width: 62%;
+    height: 6px;
+    background: linear-gradient(90deg, #00ccf2 0%, #004f63 50%, #000000 100%);
+    position: absolute;
+    top: 32px;
+    left: 71px;
+  }
+  .about-title p {
+    color: #fff;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    word-spacing: -1px;
+    padding-right: 0px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .about-img img {
+    margin-left: 0px;
+    position: relative;
+  }
+  .tk-title h2 {
+    color: #fff;
+    font-size: 23px;
+  }
+  .tk-title p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .text-box-main {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .text-box-main h3 {
+    font-size: 19.922px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+  .text-box-main ul li {
+    color: #fff;
+    font-size: 12.039px;
+  }
+  .text-box-main::before {
+    content: "";
+    width: 100%;
+    height: 6px;
+  }
+  .Token_Address small {
+    color: #00d3f3;
+    text-align: center;
+    font-family: "BoomBox 2";
+    font-size: 9px;
+  }
+  .Token_Address span {
+    font-size: 14px;
+    padding: 5px 13px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  .ds-area {
+    padding: 40px 0;
+  }
+  .tokenomics-area {
+    padding: 43px 0 2px;
+  }
+  .ds-wrapper h2 {
+    font-size: 28px;
+  }
+  .ds-wrapper p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+  }
+  .ds-wrapper p br {
+    display: none;
+  }
+  footer {
+    background-color: #fff;
+    padding: 17px 0;
+  }
+  .coppyright-text p {
+    color: #000;
+    font-size: 16px;
+    word-spacing: 1px;
+  }
+  .scroll-card {
+    padding: 1px 8px;
+  }
+  .scrolltotop {
+    width: 33px;
+  }
+}
+
+/* ============== end all the code =============== */
