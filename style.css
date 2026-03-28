@@ -141,11 +141,11 @@ nav {
 }
 
 .menu-item ul li a:hover {
-  color: #00d3f3;
+  color: #eee119;
 }
 
 .active a {
-  color: #00d3f3 !important;
+  color: #eee119 !important;
 }
 
 .manu-btn ul {
@@ -170,8 +170,8 @@ nav {
 
 .buy-btn:hover {
   color: #fff;
-  background: #00d3f3;
-  border: 3px solid #00d3f3;
+  background: #eee119;
+  border: 3px solid #eee119;
 }
 
 .menu-icon ul {
@@ -461,7 +461,7 @@ nav {
   content: "";
   width: 210%;
   height: 10px;
-  background: linear-gradient(90deg, #00ccf2 0%, #004f63 50%, #000000 100%);
+  background: linear-gradient(90deg, #eee119 0%, #8f870950%, #000000 100%);
   position: absolute;
   top: 70px;
   left: 0px;
@@ -525,7 +525,7 @@ nav {
   content: "";
   width: 100%;
   height: 10px;
-  background: linear-gradient(90deg, #00ccf2 0%, #004f63 70%, #000000 100%);
+  background: linear-gradient(90deg, #eee119 0%, #8f8709 70%, #000000 100%);
   position: absolute;
   top: 75px;
   left: 0px;
@@ -571,7 +571,7 @@ nav {
 }
 
 .Token_Address small {
-  color: #00d3f3;
+  color: #eee119;
   text-align: center;
   font-family: "BoomBox 2";
   font-size: 30px;
@@ -600,14 +600,14 @@ nav {
 }
 
 .Token_Address span:hover {
-  background-color: #00d3f3;
-  border: 2.934px solid #00d3f3;
+  background-color: #eee119;
+  border: 2.934px solid #eee119;
 }
 
 .copy-notification {
   color: #000;
   border-radius: 140px;
-  background: #00d3f3;
+  background: #eee119;
   padding: 0px 10px;
   border-radius: 30px;
   position: fixed;

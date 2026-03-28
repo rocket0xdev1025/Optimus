@@ -148,7 +148,7 @@ Small Screen - Tablate
     content: "";
     width: 62%;
     height: 6px;
-    background: linear-gradient(90deg, #00ccf2 0%, #004f63 50%, #000000 100%);
+    background: linear-gradient(90deg, #eee119 0%, #8f870950%, #000000 100%);
     position: absolute;
     top: 32px;
     left: 71px;
@@ -205,7 +205,7 @@ Small Screen - Tablate
     height: 6px;
   }
   .Token_Address small {
-    color: #00d3f3;
+    color: #eee119;
     text-align: center;
     font-family: "BoomBox 2";
     font-size: 9px;
@@ -391,7 +391,7 @@ Xtra Small Screen - Small Mobile
     content: "";
     width: 62%;
     height: 6px;
-    background: linear-gradient(90deg, #00ccf2 0%, #004f63 50%, #000000 100%);
+    background: linear-gradient(90deg, #eee119 0%, #8f870950%, #000000 100%);
     position: absolute;
     top: 32px;
     left: 71px;
@@ -448,7 +448,7 @@ Xtra Small Screen - Small Mobile
     height: 6px;
   }
   .Token_Address small {
-    color: #00d3f3;
+    color: #eee119;
     text-align: center;
     font-family: "BoomBox 2";
     font-size: 9px;
